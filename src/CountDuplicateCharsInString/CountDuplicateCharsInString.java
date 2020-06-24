@@ -3,14 +3,13 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class CountDuplicateCharsInString {
 
-	/*
-	 * 
-	 * “Write a program that counts duplicate characters from a given string.”
-	 * Excerpt From: Anghel Leonard. “Java Coding Problems”.
-	 * 
-	 */
+/*
+ * ““ Write a program that counts duplicate characters from a given string”
+ * 	Excerpt From: Anghel Leonard. “Java Coding Problems”. Apple Books. 
+ * 
+ */
+public class CountDuplicateCharsInString {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
@@ -18,7 +17,6 @@ public class CountDuplicateCharsInString {
 		scan.close();
 		
 		testCode(input);
-		
 	}
 	
 	private static void testCode(String input)
@@ -35,7 +33,6 @@ public class CountDuplicateCharsInString {
 		}
 		
 		System.out.println("INPUT: " + input + " \nRESULT: " + duplicateCount.toString());
-		
 	}
 
 }

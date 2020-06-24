@@ -3,6 +3,11 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+/*
+ * “Write a program that returns the first non-repeated character from a given string.”
+ * 	Excerpt From: Anghel Leonard. “Java Coding Problems”. Apple Books. 
+ * 
+ */
 public class FirstNonRepeatedChar {
 
 	public static void main(String[] args) {
