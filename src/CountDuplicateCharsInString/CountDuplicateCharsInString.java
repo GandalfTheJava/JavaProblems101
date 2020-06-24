@@ -1,3 +1,4 @@
+package CountDuplicateCharsInString;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -16,6 +17,12 @@ public class CountDuplicateCharsInString {
 		String input = scan.next(); //This is the input
 		scan.close();
 		
+		testCode(input);
+		
+	}
+	
+	private static void testCode(String input)
+	{
 		
 		Map<Character,Integer> duplicateCount = new HashMap<Character,Integer>();
 		
@@ -27,7 +34,8 @@ public class CountDuplicateCharsInString {
 			else duplicateCount.put(c,1);
 		}
 		
-		System.out.println(duplicateCount.toString());
+		System.out.println("INPUT: " + input + " \nRESULT: " + duplicateCount.toString());
+		
 	}
 
 }
